@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #040;
+}
+
+#app {
+    box-sizing: content-box;
+    position: fixed;
+    width: 800px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #800;
+    background: repeating-linear-gradient(45deg, #ffcc00, #ffcc00 10px, #ff00ff 10px, #ff00ff 20px);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    animation: shake 0.5s infinite alternate;
+    cursor: url('http://localhost:5173/cursor.png'), default;
+}
+
+#myCanvas {
+    position: absolute;
+
+}
+
+@keyframes shake {
+    from {
+        transform: translate(-50%, -50%) rotate(-3deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(3deg);
+    }
+}
