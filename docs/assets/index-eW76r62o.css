@@ -1,1 +1,38 @@
-*{margin:0;padding:0;box-sizing:border-box}body{background-color:#040}#app{box-sizing:content-box;width:800px;height:600px;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);border:10px solid #800;background:repeating-linear-gradient(45deg,#ffcc00,#ffcc00 10px,#ff00ff 10px,#ff00ff 20px);box-shadow:0 0 20px #ff000080;animation:shake .5s infinite alternate;cursor:url(../../cursor.png),default}#myCanvas{position:absolute}@keyframes shake{0%{transform:translate(-50%,-50%) rotate(-3deg)}to{transform:translate(-50%,-50%) rotate(3deg)}}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #040
+}
+
+#app {
+    box-sizing: content-box;
+    width: 800px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #800;
+    background: repeating-linear-gradient(45deg, #ffcc00, #ffcc00 10px, #ff00ff 10px, #ff00ff 20px);
+    box-shadow: 0 0 20px #ff000080;
+    animation: shake .5s infinite alternate;
+    cursor: url(https://d-sektionen.github.io/julkalenderbidrag-webbutskottet-2023/cursor.png), default
+}
+
+#myCanvas {
+    position: absolute
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(-50%, -50%) rotate(-3deg)
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(3deg)
+    }
+}
