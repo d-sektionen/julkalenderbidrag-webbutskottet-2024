@@ -20,7 +20,7 @@ body {
     background: repeating-linear-gradient(45deg, #ffcc00, #ffcc00 10px, #ff00ff 10px, #ff00ff 20px);
     box-shadow: 0 0 20px #ff000080;
     animation: shake .5s infinite alternate;
-    cursor: url(https://d-sektionen.github.io/julkalenderbidrag-webbutskottet-2023/cursor.png), default
+    cursor: url(https://d-sektionen.github.io/julkalenderbidrag-webbutskottet-2024/cursor.png), default
 }
 
 #myCanvas {
